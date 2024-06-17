@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "15926000000033165",
+      "name": "NetSuiteEscrowApp",
+      "domain": {
+        "id": "10082658545",
+        "name": "netsuiteescrowapp-813959966.development"
+      },
+      "timezone": "America/Chicago",
+      "env": [
+        {
+          "idx": 1,
+          "id": "813959966",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+[debug] [2024-06-17T16:12:21.917Z] : 
+[debug] [2024-06-17T16:12:21.918Z] : ----------------------------------------------------------------------
+[debug] [2024-06-17T16:12:21.919Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\LauraGiuffre\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2024-06-17T16:12:21.919Z] : CLI Version:  1.17.5
+[debug] [2024-06-17T16:12:21.919Z] : Platform:     win32
+[debug] [2024-06-17T16:12:21.919Z] : Node Version: v22.2.0
+[debug] [2024-06-17T16:12:21.919Z] : Time:         Mon Jun 17 2024 11:12:21 GMT-0500 (Central Daylight Time)
+[debug] [2024-06-17T16:12:21.919Z] : ----------------------------------------------------------------------
+[debug] [2024-06-17T16:12:21.919Z] : 
+[debug] [2024-06-17T16:12:23.508Z] : > authorizing via signed-in user option
+[debug] [2024-06-17T16:12:23.508Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-06-17T16:12:23.521Z] : > refreshing access token <
+[debug] [2024-06-17T16:12:23.522Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-06-17T16:12:23.779Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 17 Jun 2024 16:12:23 GMT","content-type":"application/json;charset=UTF-8","content-length":"1945","connection":"keep-alive","set-cookie":["b266a5bf57=a7f15cb1555106de5ac96d088b72e7c8; Path=/","iamcsr=92780c0a-acba-4a49-8a45-dea71567acd9;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=92780c0a-acba-4a49-8a45-dea71567acd9;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-06-17T16:12:23.788Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/15926000000033165 
+
+[debug] [2024-06-17T16:12:24.060Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 17 Jun 2024 16:12:23 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=c4d81caf-fdbb-4c80-978d-5518011dd1a2;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=c4d81caf-fdbb-4c80-978d-5518011dd1a2;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-06-17T16:12:24.062Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/15926000000033165/environment 
+
+[debug] [2024-06-17T16:12:24.141Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 17 Jun 2024 16:12:24 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=76046ba7-f156-4167-864d-b3cdb347421f;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=76046ba7-f156-4167-864d-b3cdb347421f;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-06-17T16:12:24.164Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/15926000000033165/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-06-17T16:12:24.263Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 17 Jun 2024 16:12:24 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=bb75afd2-f12e-42e3-b22b-e0138bd59419;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=bb75afd2-f12e-42e3-b22b-e0138bd59419;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-06-17T16:12:24.266Z] : unknown eol undefined hence skipping check
+[debug] [2024-06-17T16:12:24.384Z] : >>>> HTTP REQUEST : PUT https://api.catalyst.zoho.com/baas/v1/project/15926000000033165/server/upsert 
+
+[debug] [2024-06-17T16:12:27.868Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 17 Jun 2024 16:12:27 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=6138a66e-1f6b-4d7d-9d81-dee46012c416;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=6138a66e-1f6b-4d7d-9d81-dee46012c416;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-06-17T16:12:27.964Z] : i Plugin : "zcatalyst-cli-plugin-react" is used for client deploy
+[info] [2024-06-17T16:12:27.964Z] : i Building Application...
+[info] [2024-06-17T16:12:29.207Z] : [react-plugin]: Creating an optimized production build...
+[info] [2024-06-17T16:12:34.141Z] : [react-plugin]: Compiled successfully.
+
+[info] [2024-06-17T16:12:34.142Z] : [react-plugin]: File sizes after gzip:
+
+[info] [2024-06-17T16:12:34.152Z] : [react-plugin]:   46.57 kB (+3 B)  build\static\js\main.9e261a4e.js
+[info] [2024-06-17T16:12:34.152Z] : [react-plugin]:   1.66 kB          build\static\js\453.1b06c42c.chunk.js
+[info] [2024-06-17T16:12:34.153Z] : [react-plugin]:   513 B            build\static\css\main.f855e6bc.css
+[info] [2024-06-17T16:12:34.153Z] : [react-plugin]:  
+[debug] [2024-06-17T16:12:34.307Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/project/15926000000033165/webapp 
+
+[debug] [2024-06-17T16:12:36.749Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 17 Jun 2024 16:12:36 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=84538f30-1e77-4083-b91d-e1c713e0d60b;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=84538f30-1e77-4083-b91d-e1c713e0d60b;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-06-17T16:12:36.751Z] : 
+[info] [2024-06-17T16:12:36.751Z] : i functions(netsuite_services_function): URL => https://netsuiteescrowapp-813959966.development.catalystserverless.com/server/netsuite_services_function/
+[info] [2024-06-17T16:12:36.752Z] : √ functions(netsuite_services_function): deploy successful
+[info] [2024-06-17T16:12:36.752Z] : 
+[info] [2024-06-17T16:12:36.752Z] : √ client: deploy successful
+[info] [2024-06-17T16:12:36.753Z] : i client: URL => https://netsuiteescrowapp-813959966.development.catalystserverless.com/app/index.html
+[info] [2024-06-17T16:12:36.753Z] : 
+[info] [2024-06-17T16:12:36.753Z] : √ Catalyst deploy complete!
+[debug] [2024-06-17T16:12:36.754Z] : NO ERRORS REGISTERED
+[debug] [2024-06-17T16:12:36.754Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2024-06-17T16:12:36.754Z] : TOTAL DURATION OF COMMAND EXEC : 13264
+[debug] [2024-06-17T16:12:36.761Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-06-17T16:12:37.662Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Mon, 17 Jun 2024 16:12:37 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"keep-alive","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=4b5e3e2c-8d28-4d85-84ff-8ec3082400d3;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=4b5e3e2c-8d28-4d85-84ff-8ec3082400d3;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=63213A2A69E19FD7F123E01A6DF53159; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-06-17T16:12:37.663Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2024-06-17T16:12:37.664Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range

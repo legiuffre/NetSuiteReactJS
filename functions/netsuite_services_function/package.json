@@ -1,0 +1,11 @@
+{
+	"name": "netsuite_services_function",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "lgiuffre@teamrel.com",
+	"dependencies": {
+		"axios": "^1.7.2",
+		"crypto": "^1.0.1",
+		"zcatalyst-sdk-node": "latest"
+	}
+}
